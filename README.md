@@ -1,1 +1,1 @@
-HTML/CSS/JavaScript/ReactJS practice exercises
+## Мої домашні вправи

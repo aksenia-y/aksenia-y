@@ -1,1 +1,1 @@
-HTML/CSS/JavaScript/ReactJS practice exercises
+## Домашні вправи до лекції 1
