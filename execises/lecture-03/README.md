@@ -1,3 +1,4 @@
+Exercises for lecture #3 Каскадні стилі сторінок (CSS)
 В середині exercises створіть піддирексторію lecture-03. В середині lecture-03 створіть файли index.html та README.md
 
 Відредагуйте файл index.html
