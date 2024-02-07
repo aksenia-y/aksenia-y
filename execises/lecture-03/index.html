@@ -24,7 +24,7 @@
             background-color: var(--bgColor)
         }
     </style>
-    
+
 </head>
 
 <body>
@@ -33,29 +33,19 @@
     <!-- Додайте тут елеиент iframe з посиланням на українську версію Wikipedia page for the CSS language -->
     <!-- В елеиенті iframe визначте атрибут title зі значенням Сторінка Вікіпедії для мови CSS -->
     <iframe src="https://ru.wikipedia.org/wiki/CSS" title="Сторінка Вікіпедії для мови CSS"></iframe>
-</body>
     
-<!--Додайте тут елеиент style 
-    В сепедині style визначте селектор p з властивістю color: red;
-        -->
-</head>
 
-<body>
-        <!-- 
-            Додайте тут елеиент p з текстом This is my paragraph.
-            визначте атрибут style для тега p зі значенням color: blue;
-        -->
-    <p style="color:blue">This is my paragraph.</p>
-        <!-- 
-            який колір буде мати текст This is my paragraph і чому.
-            Відповідь- колір буд синій, є стиль для цього p елементу.
-        -->
+<!--Додайте тут елеиент p з текстом This is my paragraph.
+визначте атрибут style для тега p зі значенням color: blue;-->
+<p style="color:blue">This is my paragraph.</p>
+<!-- який колір буде мати текст This is my paragraph і чому.
+Відповідь- колір буд синій, є стиль для цього p елементу.-->
 
-<!-- 3.У наступному фпагменті випрвити помилки-->
-        <p>Звичайний, нудний абзац. Намагайтеся не заснути.</p>
-        <p class="exciting">The most exciting paragraph on the page. One of a kind!</p>
+<!-- 3.У наступному фпагменті випрвити помилки
+    <p>Звичайний, нудний абзац. Намагайтеся не заснути.</p>
+    <p class="exciting">The most exciting paragraph on the page. One of a kind!</p>
     
-        <div class="exciting">The most exciting paragraph on the page. One of a kind!</div>
+    <div class="exciting">The most exciting paragraph on the page. One of a kind!</div>
     
     <style>
     #exciting {
@@ -63,11 +53,13 @@
     border: 1px solid #696969;
     padding: 10px;
     }
-    </style>
+    </style> -->
 
     <!--4.Чи буде змінна --bgColor видимою для елемента body. Яким буде фон елемента body і чому.
     Відповідь - -->
-        <!-- Додайте тут елеиент style: -->
+
+
+    <!-- Додайте тут елеиент style:
     <style type="text/css">
     
         body {
@@ -82,23 +74,59 @@
         визначте для елементів p властивість фону таким чином:
         background: var(--bgColor);
         */
-    </style>
+    </style> 
 
 </head>
-<body> 
-
+<body> -->
     <!-- ... -->
     <!-- Додайте тут 2 елеиенти div: -->
     <div>
-    <h3>Div 1</h3>
+        <h3>Div 1</h3>
         <p>Paragraph 1</p>
     </div>
 
     <div>
-    <h3>Div 2</h3>
+        <h3>Div 2</h3>
         <p>Paragraph 2</p>
     </div>
-    <!--9. Відредагувати розділ footer-->
+<!--5.Створити файл css/main.css
+
+Перейти до кореня персонального сайта
+
+Створити файли css/main.css та css/common.css
+
+Відредагувати файл index.html
+
+Підключити css/main.css за допомогою тега link
+Підключити css/common.css за допомогою правила @import -->
+
+<!--6. Виправити помилку у фпагменті
+ * {
+  margin: 0;
+  padding: 0;
+ }
+
+ /* more styles */
+ @import url("my-imported-styles.css");-->
+
+7. Відредагувати файл css/common.css
+
+Визначити у глобальній області видимості змінні:
+
+--primary-text-color: #000;
+--primary-bg-color: #fff;
+Визначити у області видимості footer змінні:
+
+--footer-text-color: #fff;
+--fuuter-bg-color: #000;
+
+8. Відредагувати файл css/main.css
+
+Встановити, за допомогою визначених у файлі css/common.css змінних, властивості елемента body:
+color;
+background;
+
+<!--9. Відредагувати розділ footer-->
     <footer>
         <section>
             <div>

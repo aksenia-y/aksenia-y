@@ -1,5 +1,5 @@
 Exercises for lecture #3 Каскадні стилі сторінок (CSS)
-В середині exercises створіть піддирексторію lecture-03. В середині lecture-03 створіть файли index.html та README.md
+1. В середині exercises створіть піддирексторію lecture-03. В середині lecture-03 створіть файли index.html та README.md
 
 Відредагуйте файл index.html
 <!DOCTYPE html>
@@ -20,7 +20,7 @@ Exercises for lecture #3 Каскадні стилі сторінок (CSS)
     <!-- В елеиенті iframe визначте атрибут title зі значенням Сторінка Вікіпедії для мови CSS -->
 </body>
 </html>
-Відредагуйте файл index.html
+2. Відредагуйте файл index.html
 <!doctype html>
   <head>
  <!-- 
@@ -40,7 +40,7 @@ Exercises for lecture #3 Каскадні стилі сторінок (CSS)
 
   </body>
 </html>
-У наступному фпагменті випрвити помилки
+3. У наступному фпагменті випрвити помилки
     <p>Звичайний, нудний абзац. Намагайтеся не заснути.</p>
     <p id="exciting">The most exciting paragraph on the page. One of a kind!</p>
 
@@ -53,7 +53,7 @@ Exercises for lecture #3 Каскадні стилі сторінок (CSS)
    padding: 10px;
   }
  </style>
-Чи буде змінна --bgColor видимою для елемента body. Яким буде фон елемента body і чому.
+4. Чи буде змінна --bgColor видимою для елемента body. Яким буде фон елемента body і чому.
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -97,7 +97,7 @@ Exercises for lecture #3 Каскадні стилі сторінок (CSS)
 
 </body>
 </html>
-Створити файл css/main.css
+5. Створити файл css/main.css
 Перейти до кореня персонального сайта
 
 Створити файли css/main.css та css/common.css
@@ -106,7 +106,7 @@ Exercises for lecture #3 Каскадні стилі сторінок (CSS)
 
 Підключити css/main.css за допомогою тега link
 Підключити css/common.css за допомогою правила @import
-Виправити помилку у фпагменті
+6. Виправити помилку у фпагменті
  * {
   margin: 0;
   padding: 0;
@@ -114,7 +114,7 @@ Exercises for lecture #3 Каскадні стилі сторінок (CSS)
 
  /* more styles */
  @import url("my-imported-styles.css");
-Відредагувати файл css/common.css
+7. Відредагувати файл css/common.css
 
 Визначити у глобальній області видимості змінні:
 
@@ -124,12 +124,12 @@ Exercises for lecture #3 Каскадні стилі сторінок (CSS)
 
 --footer-text-color: #fff;
 --fuuter-bg-color: #000;
-Відредагувати файл css/main.css
+8. Відредагувати файл css/main.css
 
 Встановити, за допомогою визначених у файлі css/common.css змінних, властивості елемента body:
 color;
 background;
-Відредагувати розділ footer
+9. Відредагувати розділ footer
 
 <footer>
   <!-- створити тут секцію -->
