@@ -9,22 +9,31 @@
 
     <style>
         * {
-            magrin: o;
+            margin: o;
             padding: 0;
         }
         
-        :root {
-            --bgColor:limegreen;
+        @import url("css/common.css");
 
-            :root {
-                background-color: var(--bgColor);
-            }
-        }
-        body {
+            body {
             background-color: var(--bgColor)
         }
-    </style>
 
+        .div {
+            --bgColor:limegreen;
+            }
+
+        .p {
+            background: var(--bgColor);
+        }
+
+        .exciting {
+            background: #f69d3c;
+            border: 1px solid #696969;
+            padding: 10px;
+        }
+    </style>
+    
 </head>
 
 <body>
@@ -48,17 +57,8 @@
     
     <div class="exciting">The most exciting paragraph on the page. One of a kind!</div>
     
-    <style>
-    #exciting {
-    background: #f69d3c;
-    border: 1px solid #696969;
-    padding: 10px;
-    }
-    </style>
-
     <!--4.Чи буде змінна --bgColor видимою для елемента body. Яким буде фон елемента body і чому.
-    Відповідь - ...............................-->
-
+    Відповідь - Не буде, змінні мають бути написані раніше-->
 
     <!-- Додайте тут елеиент style:
     <style type="text/css">
@@ -102,7 +102,7 @@
 Підключити css/main.css за допомогою тега link
 Підключити css/common.css за допомогою правила @import -->
 
-6. Виправити помилку у фпагменті
+<!-- 6. Виправити помилку у фпагменті
  * {
   margin: 0;
   padding: 0;
@@ -111,7 +111,7 @@
  /* more styles */
  @import url("my-imported-styles.css");
 
-<!--7. Відредагувати файл css/common.css
+7. Відредагувати файл css/common.css
 
 Визначити у глобальній області видимості змінні:
 
@@ -128,7 +128,7 @@
 color;
 background;
 
-<-- 9. Відредагувати розділ footer
+9. Відредагувати розділ footer
     <footer>
         <section>
             <div>
@@ -171,4 +171,4 @@ background;
     </section>
     </footer>
 </body>
-</html>-->
+</html>

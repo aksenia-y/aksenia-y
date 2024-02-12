@@ -1,0 +1,14 @@
+   html {
+    --primary-text-color: #000;
+    --primary-bg-color: #fff;
+  }
+  
+  footer {
+    --footer-text-color: #fff;
+    --fuuter-bg-color: #000;
+  }
+
+  body {
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+  }
