@@ -1,0 +1,19 @@
+h1,h2,h3 {
+    color: gray;
+}
+
+.main {
+    color: #e60202;
+}
+
+h2 {
+    color: red;
+}
+
+ul {
+    font-weight: bold;
+}
+
+section > p {
+    color: red;
+}
