@@ -2,7 +2,7 @@ h1,h2,h3 {
     color: gray;
 }
 
-.main {
+#main {
     color: #e60202;
 }
 
@@ -26,34 +26,30 @@ section > p {
 font-size: 22px;
 }
 
-body > h2 :first-of-type{
-color:indigo
+h2 :first-of-type {
+    color:indigo
 }
 
 p .first a {
-    font-size: 24px;
-    text-decoration: none;
-    font-style: italic;
+    color: green;
 }
 
-div > p {
+div + p {
     color: salmon;
 }
 
-
-
 .translucent-box {
-    background-color: hsl(0deg, 100%, 50%);
+    background-color: hsla(0deg, 100%, 50%, 0.5);
     }
 
-    html {
+html {
     font-size: 100%;
     }
 
-    body {
-    font-size: 1.4rem;
+body {
+    font-size: 140%;
     }
 
-    h1 {
-    font-size: 2.4rem;
+h1 {
+    font-size: 240%;
     }
