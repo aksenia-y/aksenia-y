@@ -31,9 +31,24 @@ h2 {
     list-style: none;
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
 
-/*
-body {
-    color:blueviolet;
-    background:fixed;
+.bg-dark {
+  background-color: black;
+}
+
+.text-white {
+color: white;
+}
+
+ul.categories li a {
+  color:indigo;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+ul.categories li a:hover {
+background: lightgray;
 }

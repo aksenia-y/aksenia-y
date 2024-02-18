@@ -36,7 +36,7 @@ a {
     color: orange;
     }
     
-    ul li:first-child span {
+    ul span:first-child {
     color: orange;
     }
 
@@ -44,7 +44,7 @@ a {
     color: orange;
     }
 
-    ul li:last-child span:last-child {
+    ul span:last-child {
     color: orange;
     }
 
@@ -75,12 +75,12 @@ a {
     color: orange;
     }
 
-    .ua::before {
+    .ua:before {
     content: "Слава ";
     }
-    .hero::after {
+    .hero:after {
     content: " Слава!";
     }
-    .cont::before {
-    content: "\00A7";
+    .cont:before {
+    content: " \0A7";
     }
