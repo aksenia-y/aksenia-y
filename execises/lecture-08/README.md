@@ -9,7 +9,8 @@ Exercises for lecture #8 Блокова модель документа
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 	<style>
-	.box{ 
+  
+  .box { 
 		padding-top:    10px; 
 		padding-right:  20px; 
 		padding-bottom: 25px; 
@@ -19,7 +20,6 @@ Exercises for lecture #8 Блокова модель документа
 		margin-right:  20px; 
 		margin-bottom: 25px; 
 		margin-left:   20px;  
-
 	}
 	</style>
 </head>

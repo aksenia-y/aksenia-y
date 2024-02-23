@@ -1,0 +1,80 @@
+    /*Обчислити ширину елемента .box
+    ширина = 300+10*2+2*2=324px              
+    */
+
+    .box{ 
+    width: 300px; 
+    padding: 10px; 
+    border: dashed 2px green;
+    }
+    
+    /* Обчислити ширину і висоту елемента .first-box
+    ширина = 200+2*8+2*20 = 256px
+    висота = 100+2*8+2*20 = 156px     
+    */
+
+    .first-box {
+    width: 200px;
+    height: 100px;
+    border: 8px solid blue;
+    padding: 20px;
+    background: yellow;
+    }
+    
+    /* Обчислити ширину і висоту елемента .second-box
+    ширина = 200+2*8 = 216px
+    висота = 100+2*8 = 116px        
+    */
+
+    .second-box {
+    width: 200px;
+    height: 100px;
+    border: 8px solid blue;
+    background: yellow;
+    }
+        
+    /*Обчислити ширину елемента div
+    ширина =200px                   
+    */
+
+    div{
+    box-sizing:content-box;
+    width: 200px;
+    border: 8px solid blue;
+    padding: 20px;
+    background: yellow;
+    }
+    
+    /*Обчислити ширину контенту елемента div
+    ширина = 200-8*2-20*2= 144px
+    */
+
+    div{
+    box-sizing:border-box;
+    width: 200px;
+    border: 8px solid blue;
+    padding: 20px;
+    background: yellow;
+    }
+
+    .example1 {
+        background-clip: border-box;
+    }
+
+    .example2 {
+        background-clip: padding-box;
+    }
+
+    .example3 {
+        background-clip: content-box;
+    }
+
+    h1 {
+        display: inline-block;
+        word-wrap: break-word;
+    }
+
+    p {
+        display: inline-block;
+        word-wrap: normal;
+    }
