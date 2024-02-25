@@ -1,0 +1,12 @@
+.grid {
+    --min: 30ch;
+    min-width: var(--min);
+    display: grid;
+    max-width: var(--max-width);
+    gap: 1rem;
+  }
+  
+  body {
+    --padding: 5vw;
+    --max-width: 180ch;
+  }
