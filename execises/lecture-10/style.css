@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Розрахуйте в пікселях ширину кожного з елементів item-green, item-orange, item-blue
+    .item-blue = 400px
+    .item-orange = 100px 
+    .item-green = 200px
+*/
