@@ -23,5 +23,172 @@
     </script>
 
 
+1.Перепишіть функцію checkAge, видаливши else.
+
+<script>
+      function checkAge(age) {
+        if (age > 18) {
+          return true;
+        }
+        alert("Access denied for users under 18 years old");
+        return confirm("Did parents allow you?");
+      }
+
+ </script>
+
+2.Чи буде функція працювати інакше, якщо видалити else?
+так, використовується той самий блок if
+
+3.Чи є різниця в поведінці цих двох варіантів і чому?
+немає,
+
+4.Наступна функція повертає true, якщо параметр age перевищує 18. В іншому випадку запитує підтвердження та повертає результат.
+
+<script>
+function checkAge(age) {
+  if (age > 18) {
+    return true;
+  } else {
+    return confirm('Did parents allow you?');
+  }
+}
+
+</script>
+
+1.Перепишіть функцію checkAge, використовуючи '?'
+
+<script>
+ function checkAge(age) {
+        return age > 18 ? true : confirm("Did parents allow you?");
+      }
+    </script>
+
+2.Перепишіть функцію checkAge, використовуючи '||'
+
+<script>
+function checkAge(age) {
+        return age > 18 || confirm("Did parents allow you?");
+      }
+
+    </script>
+
+3.Чи потрібні дужки навколо age > 18  
+
+//*не потрібні дужки*//
+
+<script>
+
+return age > 18 || confirm('Did parents allow you?');
+</script>
+
+4.Напишіть функцію min(a,b), яка повертає найменше з двох чисел a і b. У випадку рівності a == b немає значення, що повертати. Наприклад:
+min(2, 5) == 2
+min(3, -1) == -1
+min(1, 1) == 1
+
+1.реалізуйте функцію min, використовуючи оператор if else
+
+<script>
+  function min(a, b) {
+    if (a < b) {
+      return a;
+    } else if (a > b) {
+      return b;
+    } else {
+      return undefined;
+    }
+  }
+  </script>
+
+2.реалізуйте функцію min, використовуючи тернарний оператор
+
+<script>
+function min(a, b) {
+  return a < b ? a : b;
+}
+</script>
+
+3.Напишіть функцію pow(x,n), яка повертає x у ступені n. Або, іншими словами, множить x на себе n разів і повертає результат. У цьому завданні функція повинна підтримувати лише натуральні значення n: цілі числа від 1.
+
+pow(3, 2) = 3 * 3 = 9
+pow(3, 3) = 3 * 3 * 3 = 27
+pow(1, 100) = 1 * 1 * ...* 1 = 1
+Створіть сценарій, де спочатку користувачу пропонують ввести x і n, а потім показують результат pow(x,n), або повідомлення про неправильне значення параметра n.
+
+<script>
+function pow(x, n) {
+  if (n < 1 || !Number.isInteger(n)) {
+    return "Ступінь n має бути натуральним цілим числом";
+  }
+  let result = 1;
+  for (let i = 0; i < n; i++) {
+    result *= x;
+  }
+  return result;
+}
+</script>
+
+5.Переписати функцію ask, використовуючи функцію стрілок:
+
+function ask(question, yes, no) {
+  if (confirm(question)) yes();
+  else no();
+}
+
+<script>
+
+ask(
+  "Ви згодні?",
+  () => alert("Ви погодились."),
+  () => alert("Ви скасували виконання.")
+);
+
+</script>
+
+6.Переписати функцію ask, використовуючи функціональний вираз:
+function ask(question, yes, no) {
+  if (confirm(question)) yes();
+  else no();
+}
+
+<script>
+
+ask(
+  "Ви згодні?",
+  function() { alert("Ви погодились."); },
+  function() { alert("Ви скасували виконання."); }
+);
+
+</script>
+
+7.Маємо 3 функції.
+function A() { console.log('A was called'); return undefined;}
+function B() { console.log('B was called'); return false;}
+function C() { console.log('C was called'); return "foo";}
+1.Яким чином виконати виклик функцій A() і C(), щоб на консолі отримати такий результат A was called C was called foo
+
+2.Яким чином виконати виклик функцій B() і C(), щоб на консолі отримати такий результат B was called C was called foo
+
+<script>
+
+
+function A() {
+  console.log("A was called");
+  return undefined;
+}
+function B() {
+  console.log("B was called");
+  return false;
+}
+function C() {
+  console.log("C was called");
+  return "foo";
+}
+
+console.log(A(), C());
+console.log(B(), C());
+
+</script>
+
 </body>
 </html>

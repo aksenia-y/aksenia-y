@@ -29,12 +29,24 @@ Exercises for lecture №18 - Functions
 </html>
 1.Перепишіть функцію checkAge, видаливши else.
 
+<script>
+      function checkAge(age) {
+        if (age > 18) {
+          return true;
+        }
+        alert("Access denied for users under 18 years old");
+        return confirm("Did parents allow you?");
+      }
+
+ </script>
+
 2.Чи буде функція працювати інакше, якщо видалити else?
 
 3.Чи є різниця в поведінці цих двох варіантів і чому?
 
 4.Наступна функція повертає true, якщо параметр age перевищує 18. В іншому випадку запитує підтвердження та повертає результат.
 
+<script>
 function checkAge(age) {
   if (age > 18) {
     return true;
@@ -42,7 +54,15 @@ function checkAge(age) {
     return confirm('Did parents allow you?');
   }
 }
+
+</script>
 1.Перепишіть функцію checkAge, використовуючи '?'
+
+<script>
+function checkAge(age) {
+        return age > 18 || confirm("Did parents allow you?");
+      }
+<script/>
 
 2.Перепишіть функцію checkAge, використовуючи '||'
 
